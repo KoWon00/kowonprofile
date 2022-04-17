@@ -1,1 +1,17 @@
-theme: jekyll-theme-minimal
+title:              Clean Blog
+email:              sallyko1@jejunu.ac.kr
+author:             Tree
+baseurl:            "/startbootstrap-clean-blog-jekyll"
+url:                "https://kowon00.github.io/kowonprofile/"
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
